@@ -10,7 +10,7 @@ but the container uses the special compiled MongoDB version3 thanks to [Dominic 
 
      `docker run -it --init -p 27017:27017 --name mongodb hirotochigi/rpi-mongo:3`
      
-     [Reference](https://stackoverflow.com/questions/43122080/how-to-use-init-parameter-in-docker-run)
+[Reference](https://stackoverflow.com/questions/43122080/how-to-use-init-parameter-in-docker-run)
 
 ### Note
 
