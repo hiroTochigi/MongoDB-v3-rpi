@@ -7,10 +7,15 @@ This Dockerfile is started from [nonoroazoro/rpi-mongo](https://github.com/nonor
 but the container uses the special compiled MongoDB version3 thanks to [Dominic Chen](https://www.dcddcc.com/blog/2018-06-09-building-mongodb-for-32-bit-ARM-on-debian-ubuntu.html).
 
 ### Usage
+1. Docker CLI
 
      `docker run -it --init -p 27017:27017 --name mongodb hirotochigi/rpi-mongo:3`
      
-[Reference](https://stackoverflow.com/questions/43122080/how-to-use-init-parameter-in-docker-run)
+[Reference for init flag](https://stackoverflow.com/questions/43122080/how-to-use-init-parameter-in-docker-run)
+
+2. Docker Compose
+
+     `docker-compose up`
 
 ### Note
 
